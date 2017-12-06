@@ -12,3 +12,5 @@ Student Info
 
 * Name: Example Name
 * ID: *YourIdHere*
+Name: Pham van Duan
+ID: USTBI7-034
