@@ -1,0 +1,101 @@
+
+
+1.$cat <list |gzip >list.gz
+
+$ls -la
+total 193820
+drwxr-xr-x 29 duan duan     4096 Th01 10 10:43 .
+drwxr-xr-x  3 root root     4096 Th12  5 22:57 ..
+drwxrwxr-x  2 duan duan     4096 Th01 10 10:00 02.report.pipe.txt
+-rw-------  1 duan duan    13412 Th01 10 10:29 .bash_history
+-rw-r--r--  1 duan duan      220 Th12  5 22:57 .bash_logout
+-rw-r--r--  1 duan duan     3771 Th12  5 22:57 .bashrc
+drwx------ 27 duan duan     4096 Th01  6 09:39 .cache
+drwx------  3 duan duan     4096 Th12  5 23:46 .compiz
+drwx------ 25 duan duan     4096 Th12 12 11:20 .config
+drwx------  3 root root     4096 Th12 11 23:15 .dbus
+drwxr-xr-x  2 duan duan     4096 Th12 12 10:11 Desktop
+-rw-r--r--  1 duan duan       25 Th12  5 23:11 .dmrc
+drwxr-xr-x  2 duan duan     4096 Th01 10 09:43 Documents
+drwxr-xr-x  2 duan duan     4096 Th01  4 13:57 Downloads
+-rw-r--r--  1 duan duan     8980 Th12  5 22:57 examples.desktop
+-rw-rw-r--  1 duan duan      297 Th01 10 09:49 filelist
+-rw-rw-r--  1 duan duan      194 Th01 10 10:10 filelist.gz
+drwx------  5 duan duan     4096 Th01 10 09:36 .gconf
+drwxrwxr-x  8 duan duan     4096 Th01  6 20:45 .git
+-rw-rw-r--  1 duan duan       56 Th01  6 20:38 .gitconfig
+drwxrwxr-x  3 duan duan     4096 Th01  5 22:58 gittest
+drwx------  3 duan duan     4096 Th12 11 18:20 .gnome
+drwx------  3 duan duan     4096 Th01 10 09:36 .gnupg
+-rw-rw-r--  1 duan duan 49564190 Th12  6 05:23 google-chrome-stable_current_amd64.deb
+-rw-rw-r--  1 duan duan 49564190 Th12  6 05:23 google-chrome-stable_current_amd64.deb.1
+-rw-rw-r--  1 duan duan 49564190 Th12  6 05:23 google-chrome-stable_current_amd64.deb.2
+-rw-rw-r--  1 duan duan 49564190 Th12  6 05:23 google-chrome-stable_current_amd64.deb.3
+-rw-------  1 duan duan     8850 Th01 10 09:36 .ICEauthority
+drwxrwxr-x  3 duan duan     4096 Th12 12 10:00 .java
+-rw-rw-r--  1 duan duan        0 Th01 10 10:42 list
+-rw-rw-r--  1 duan duan        0 Th01 10 10:42 list.gx
+-rw-rw-r--  1 duan duan       20 Th01 10 10:43 list.gz
+drwx------  3 duan duan     4096 Th12  5 23:11 .local
+drwx------  5 duan duan     4096 Th12 12 00:26 .mozilla
+drwxr-xr-x  2 duan duan     4096 Th12  5 23:11 Music
+drwxrwxr-x  2 duan duan     4096 Th01  5 22:00 .nano
+drwxrwxr-x  3 duan duan     4096 Th12 12 10:01 .netbeans
+drwxrwxr-x  3 duan duan     4096 Th12 12 10:03 NetBeansProjects
+drwxrwxr-x  2 duan duan     4096 Th12 11 20:15 .oracle_jre_usage
+drwxrwxr-x  3 duan duan     4096 Th01 10 10:38 os2018
+drwxr-xr-x  2 duan duan     4096 Th01  6 00:24 Pictures
+drwx------  3 duan duan     4096 Th12 11 18:20 .pki
+-rw-r--r--  1 duan duan      655 Th12  5 22:57 .profile
+drwxr-xr-x  2 duan duan     4096 Th12  5 23:11 Public
+-rw-rw-r--  1 duan duan       16 Th01  5 22:29 README.md
+-rw-r--r--  1 duan duan        0 Th12  6 16:44 .sudo_as_admin_successful
+drwxr-xr-x  2 duan duan     4096 Th12  5 23:11 Templates
+drwxr-xr-x  2 duan duan     4096 Th12  5 23:11 Videos
+-rw-------  1 duan duan       60 Th01 10 09:36 .Xauthority
+-rw-------  1 duan duan       82 Th01 10 09:36 .xsession-errors
+-rw-------  1 duan duan     2205 Th01  7 23:58 .xsession-errors.old
+
+2.
+free
+              total        used        free      shared  buff/cache   available
+Mem:        1529852      925012      101744       21780      503096      412752
+Swap:       3417084      396728     3020356
+
+3.
+
+wc /etc/passwd
+42   71 2357 /etc/passwd
+
+
+4.cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+stepping	: 4
+cpu MHz		: 2196.820
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch avx2 rdseed
+bugs		:
+bogomips	: 4393.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+5.
+/home/duan/Pictures/92a50912-d3dc-46db-9619-7b2495b2498f.jpg
+
+
