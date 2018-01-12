@@ -1,0 +1,253 @@
+1.ps -A
+  PID TTY          TIME CMD
+    1 ?        00:00:02 systemd
+    2 ?        00:00:00 kthreadd
+    4 ?        00:00:00 kworker/0:0H
+    5 ?        00:00:00 kworker/u2:0
+    6 ?        00:00:00 ksoftirqd/0
+    7 ?        00:00:01 rcu_sched
+    8 ?        00:00:00 rcu_bh
+    9 ?        00:00:00 migration/0
+   10 ?        00:00:00 lru-add-drain
+   11 ?        00:00:00 watchdog/0
+   12 ?        00:00:00 cpuhp/0
+   13 ?        00:00:00 kdevtmpfs
+   14 ?        00:00:00 netns
+   15 ?        00:00:00 khungtaskd
+   16 ?        00:00:00 oom_reaper
+   17 ?        00:00:00 writeback
+   18 ?        00:00:00 kcompactd0
+   19 ?        00:00:00 ksmd
+   20 ?        00:00:00 khugepaged
+   21 ?        00:00:00 crypto
+   22 ?        00:00:00 kintegrityd
+   23 ?        00:00:00 bioset
+   24 ?        00:00:00 kblockd
+   25 ?        00:00:00 ata_sff
+   26 ?        00:00:00 md
+   27 ?        00:00:00 devfreq_wq
+   28 ?        00:00:00 watchdogd
+   32 ?        00:00:00 kauditd
+   33 ?        00:00:01 kswapd0
+   34 ?        00:00:00 vmstat
+   35 ?        00:00:00 bioset
+   36 ?        00:00:00 ecryptfs-kthrea
+   76 ?        00:00:00 kthrotld
+   77 ?        00:00:00 acpi_thermal_pm
+   78 ?        00:00:00 bioset
+   79 ?        00:00:00 bioset
+   80 ?        00:00:00 bioset
+   81 ?        00:00:00 bioset
+   82 ?        00:00:00 bioset
+   83 ?        00:00:00 bioset
+   84 ?        00:00:00 bioset
+   85 ?        00:00:00 bioset
+   86 ?        00:00:00 scsi_eh_0
+   87 ?        00:00:00 scsi_tmf_0
+   88 ?        00:00:00 scsi_eh_1
+   89 ?        00:00:00 scsi_tmf_1
+   95 ?        00:00:00 ipv6_addrconf
+  116 ?        00:00:00 charger_manager
+  117 ?        00:00:00 bioset
+  166 ?        00:00:00 kworker/0:1H
+  167 ?        00:00:00 scsi_eh_2
+  168 ?        00:00:00 scsi_tmf_2
+  169 ?        00:00:00 bioset
+  197 ?        00:00:00 jbd2/sda2-8
+  198 ?        00:00:00 ext4-rsv-conver
+  229 ?        00:00:00 systemd-journal
+  249 ?        00:00:00 systemd-udevd
+  324 ?        00:00:00 iprt-VBoxWQueue
+  359 ?        00:00:00 systemd-timesyn
+  382 ?        00:00:00 ttm_swap
+  645 ?        00:00:00 rsyslogd
+  646 ?        00:00:00 dbus-daemon
+  672 ?        00:00:00 ModemManager
+  678 ?        00:00:00 avahi-daemon
+  699 ?        00:00:00 cron
+  706 ?        00:00:00 NetworkManager
+  707 ?        00:00:00 accounts-daemon
+  708 ?        00:00:00 acpid
+  710 ?        00:00:00 systemd-logind
+  719 ?        00:00:00 snapd
+  747 ?        00:00:00 avahi-daemon
+  771 ?        00:00:00 lightdm
+  774 ?        00:00:00 polkitd
+  846 tty7     00:03:29 Xorg
+  863 ?        00:00:00 dhclient
+  875 ?        00:00:00 dnsmasq
+  917 ?        00:00:00 whoopsie
+  923 tty1     00:00:00 agetty
+ 1009 ?        00:00:00 lightdm
+ 1063 ?        00:00:00 upowerd
+ 1085 ?        00:00:00 rtkit-daemon
+ 1093 ?        00:00:00 colord
+ 1115 ?        00:00:00 kworker/0:4
+ 1132 ?        00:00:00 systemd
+ 1133 ?        00:00:00 (sd-pam)
+ 1138 ?        00:00:01 gnome-keyring-d
+ 1140 ?        00:00:00 upstart
+ 1164 ?        00:00:06 python
+ 1237 ?        00:00:02 dbus-daemon
+ 1249 ?        00:00:00 window-stack-br
+ 1277 ?        00:00:01 ibus-daemon
+ 1279 ?        00:00:00 upstart-udev-br
+ 1285 ?        00:00:00 upstart-dbus-br
+ 1287 ?        00:00:00 upstart-dbus-br
+ 1296 ?        00:00:00 upstart-file-br
+ 1307 ?        00:00:00 gvfsd
+ 1312 ?        00:00:00 gvfsd-fuse
+ 1320 ?        00:00:00 ibus-dconf
+ 1322 ?        00:00:00 gpg-agent
+ 1323 ?        00:00:00 ibus-ui-gtk3
+ 1333 ?        00:00:00 ibus-x11
+ 1338 ?        00:00:00 unity-settings-
+ 1339 ?        00:00:02 bamfdaemon
+ 1348 ?        00:00:02 hud-service
+ 1350 ?        00:00:00 at-spi-bus-laun
+ 1351 ?        00:00:00 gnome-session-b
+ 1355 ?        00:00:02 unity-panel-ser
+ 1358 ?        00:00:00 dbus-daemon
+ 1375 ?        00:00:00 at-spi2-registr
+ 1386 ?        00:00:00 ibus-engine-sim
+ 1401 ?        00:00:00 dconf-service
+ 1414 ?        00:00:00 pulseaudio
+ 1442 ?        00:08:14 compiz
+ 1445 ?        00:00:00 indicator-messa
+ 1446 ?        00:00:00 indicator-bluet
+ 1451 ?        00:00:00 indicator-power
+ 1453 ?        00:00:00 indicator-datet
+ 1455 ?        00:00:00 indicator-keybo
+ 1457 ?        00:00:00 indicator-sound
+ 1464 ?        00:00:00 indicator-print
+ 1465 ?        00:00:00 indicator-sessi
+ 1501 ?        00:00:00 indicator-appli
+ 1503 ?        00:00:00 evolution-sourc
+ 1530 ?        00:00:00 unity-fallback-
+ 1541 ?        00:00:04 gnome-software
+ 1545 ?        00:00:00 nm-applet
+ 1555 ?        00:00:10 nautilus
+ 1561 ?        00:00:00 polkit-gnome-au
+ 1565 ?        00:00:00 evolution-calen
+ 1566 ?        00:00:18 docky
+ 1571 ?        00:00:01 fwupd
+ 1573 ?        00:00:00 synapse
+ 1578 ?        00:00:00 gvfs-udisks2-vo
+ 1590 ?        00:00:00 sh
+ 1595 ?        00:00:00 udisksd
+ 1597 ?        00:00:00 zeitgeist-daemo
+ 1610 ?        00:00:00 zeitgeist-fts
+ 1611 ?        00:00:00 zeitgeist-datah
+ 1615 ?        00:00:00 gvfs-mtp-volume
+ 1644 ?        00:00:00 gvfs-goa-volume
+ 1661 ?        00:00:00 gvfs-gphoto2-vo
+ 1684 ?        00:00:00 gvfs-afc-volume
+ 1778 ?        00:00:00 gconfd-2
+ 1786 ?        00:00:00 evolution-calen
+ 1808 ?        00:00:00 update-notifier
+ 1835 ?        00:00:00 gvfsd-trash
+ 2670 ?        00:00:00 deja-dup-monito
+ 2896 ?        00:00:00 cups-browsed
+ 3368 ?        00:00:00 gvfsd-network
+ 3492 ?        00:00:00 gvfsd-dnssd
+ 3682 ?        00:00:00 gvfsd-metadata
+ 4876 ?        00:00:07 gnome-terminal-
+ 4940 ?        00:00:34 chrome
+ 4945 ?        00:00:00 cat
+ 4946 ?        00:00:00 cat
+ 4951 ?        00:00:00 chrome
+ 4952 ?        00:00:00 nacl_helper
+ 4955 ?        00:00:00 chrome
+ 5085 ?        00:00:00 chrome
+ 5093 ?        00:00:01 chrome
+ 5104 ?        00:00:06 chrome
+ 5139 ?        00:00:12 chrome
+ 5153 ?        00:00:00 chrome
+ 5165 ?        00:00:00 chrome
+ 5243 ?        00:00:04 gedit
+ 5254 ?        00:00:00 kworker/0:1
+ 5383 ?        00:00:03 chrome
+ 5423 ?        00:00:00 gvfsd-http
+ 5581 ?        00:00:11 evince
+ 5589 ?        00:00:00 evinced
+ 5627 ?        00:00:24 chrome
+ 5751 ?        00:00:00 kworker/u2:1
+ 5803 pts/19   00:00:00 bash
+ 5826 pts/18   00:00:00 bash
+ 5857 pts/18   00:00:00 grep
+ 5865 ?        00:00:00 kworker/u2:2
+ 5898 pts/4    00:00:00 bash
+ 5948 pts/4    00:00:00 gnome-calculato
+ 5967 pts/19   00:00:00 ps
+
+2.gnome-calculator
+
+
+
+3.ps -A|grep gnome-calculato
+ 5948 pts/4    00:00:00 gnome-calculato
+4.cat /proc/5948/status
+Name:	gnome-calculato
+Umask:	0002
+State:	S (sleeping)
+Tgid:	5948
+Ngid:	0
+Pid:	5948
+PPid:	5898
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 113 128 1000 
+NStgid:	5948
+NSpid:	5948
+NSpgid:	5948
+NSsid:	5898
+VmPeak:	  648396 kB
+VmSize:	  648396 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   35064 kB
+VmRSS:	   33996 kB
+RssAnon:	    7816 kB
+RssFile:	   26012 kB
+RssShmem:	     168 kB
+VmData:	   48776 kB
+VmStk:	     132 kB
+VmExe:	     392 kB
+VmLib:	   60696 kB
+VmPTE:	     540 kB
+VmPMD:	      12 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+Threads:	4
+SigQ:	0/5801
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	2453
+nonvoluntary_ctxt_switches:	469
+
+
+
+
+duan@duan-VirtualBox:~$ kill -STOP 5948
+duan@duan-VirtualBox:~$ kill -CONT 5948
+duan@duan-VirtualBox:~$ kill 5948
+
+
+
+
