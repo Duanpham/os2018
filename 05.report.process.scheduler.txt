@@ -1,0 +1,35 @@
+1...
+cat /proc/sched_debug|grep "systemd"
+         systemd     1       397.348364      2204   120         0.000000      1585.300207         0.000000 0 0 /autogroup-2
+ systemd-journal   216       177.314814       854   120         0.000000       178.557535         0.000000 0 0 /autogroup-8
+   systemd-udevd   238       801.727501       823   120         0.000000       246.353241         0.000000 0 0 /autogroup-11
+ systemd-timesyn   338         9.993400        51   120         0.000000        10.736521         0.000000 0 0 /autogroup-30
+  systemd-logind   678        43.701144       490   120         0.000000        44.997770         0.000000 0 0 /autogroup-50
+         systemd  1202        20.286617        22   120         0.000000        21.280744         0.000000 0 0 /autogroup-93
+2.
+cat /proc/216/sched
+systemd-journal (216, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :       1401679.276212
+se.vruntime                                  :           188.310348
+se.sum_exec_runtime                          :           189.553069
+se.nr_migrations                             :                    0
+nr_switches                                  :                  904
+nr_voluntary_switches                        :                  840
+nr_involuntary_switches                      :                   64
+se.load.weight                               :              1048576
+se.avg.load_sum                              :                39936
+se.avg.util_sum                              :                30720
+se.avg.load_avg                              :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :        1401679276032
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                   54
+mm->numa_scan_seq                            :                    0
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
+
