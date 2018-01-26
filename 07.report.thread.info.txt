@@ -1,0 +1,21 @@
+duan@duan:~$ ps -A|grep chrome
+ 1933 ?        00:01:04 chrome
+ 1987 ?        00:00:00 chrome
+ 1995 ?        00:00:00 chrome
+ 2086 ?        00:00:38 chrome
+ 2091 ?        00:00:00 chrome
+ 2175 ?        00:00:01 chrome
+ 2184 ?        00:00:00 chrome
+ 2196 ?        00:00:00 chrome
+ 2207 ?        00:00:01 chrome
+ 2225 ?        00:00:13 chrome
+ 2234 ?        00:00:07 chrome
+ 2336 ?        00:00:00 chrome
+ 3113 ?        00:00:34 chrome
+ 3131 ?        00:00:10 chrome
+ 3405 ?        00:00:29 chrome
+duan@duan:~$ ps -o nlwp 1933
+NLWP
+  37
+
+
