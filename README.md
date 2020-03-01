@@ -6,4 +6,4 @@ Student Info
 
 Name: Pham van Duan
 
-ID: USTBI7-034
+ID: USTHBI7-034
